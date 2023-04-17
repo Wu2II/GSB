@@ -1,46 +1,46 @@
 <html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Calm breeze login screen</title>
-
-    
-  </head>
-  <body>
-    <div class="wrapper">
-	<div class="container">
-		<h1>Welcome to NIGAWORLD</h1>
-        <p>{{login}}</p>
-		
-		<form id="form_login" class="form">
-			<input type="text" id="login" name="login" placeholder="Username" [(ngModel)]="login">
-			<input type="password" id="password" name="password" placeholder="Password" [(ngModel)]="password">
-			
-		</form>
-		<div class="alert alert-danger" name="err_message">{{err_message}}</div>
-        <form class="group" name="frmLogin" (ngSubmit)="valider()">
-            <button type="submit">Login</button>
-        </form>
-	</div>
+<head>
+	<meta charset="UTF-8">
+	<title>Calm breeze login screen</title>
 	
-	<ul class="bg-bubbles">
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-	</ul>
-</div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-        
-
-    
-    
-    
-  </body>
+	
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<h1>Welcome to GSB</h1>
+			<p>{{login}}</p>
+			
+			<form id="form_login" class="form">
+				<input type="text" id="login" name="login" placeholder="Username" [(ngModel)]="login">
+				<input type="password" id="password" name="password" placeholder="Password" [(ngModel)]="password">
+				
+			</form>
+			<div class="alert alert-danger" name="err_message">{{err_message}}</div>
+			<form class="group" name="frmLogin" (ngSubmit)="valider()">
+				<button type="submit">Login</button>
+			</form>
+		</div>
+		
+		<ul class="bg-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	
+	
+	
+	
+	
+	
+</body>
 </html>
